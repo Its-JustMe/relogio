@@ -11,7 +11,7 @@
   um relógio que se atualiza sozinho.
 </p>
 <p>
-  Você pode acessar o site clicando neste link: https://quimicafacil.vercel.app
+  Você pode acessar o site clicando neste link: https://relogio-navy.vercel.app/
 </p>
 
 <h3> ➢ Outras informações </h3>
