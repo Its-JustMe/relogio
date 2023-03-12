@@ -1,6 +1,6 @@
 <h1 align="center"> Relogio com JavaScript </h1>
 
-<img src="./imgs/pagina.png">
+<img src="./pagina.png">
 
 <h2 align="center">Um mini projeto de um relgio com cronômetro feito com JavaScript</h2>
 
