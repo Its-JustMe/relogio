@@ -8,7 +8,7 @@
 <p> 
   Este projeto foi feito com o objetivo de estudar a manipulação de elementos HTML com
   o DOM (Document Object Model) do JavaScript. Decidi fazer uma página simples com
-  um relógio que se atualiza sozinho.
+  um relógio que se atualiza sozinho com uma mensagem de saudação.
 </p>
 <p>
   Você pode acessar o site clicando neste link: https://relogio-navy.vercel.app/
