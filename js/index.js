@@ -14,9 +14,9 @@ window.onload = () => {
     const minuto = document.querySelector('.minuto');
     const segundo = document.querySelector('.segundo');
 
-    hora.innerHTML = h;
-    minuto.innerHTML = min;
-    segundo.innerHTML = seg;
+    hora.innerHTML = h < 10 ? '0' + h: h;
+    minuto.innerHTML = min < 10 ? '0' + min : min;
+    segundo.innerHTML = seg < 10 ? '0' + seg : seg;
 
     // Função para atualizar o contador
     setInterval(() => {
@@ -26,14 +26,14 @@ window.onload = () => {
         if (seg > 59) {
             seg = '00';
 
-            min = min < 10 ? '0' + min : min;
             min++;
+            min = min < 10 ? '0' + min : min;
 
             if (min > 59) {
                 min = '00';
 
-                h = h < 10 ? '0' + h: h;
                 h++;
+                h = h < 10 ? '0' + h: h;
 
                 if (h > 23) {
                     h = '00';
