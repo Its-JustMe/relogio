@@ -40,7 +40,7 @@ div.center {
     display: grid;
     grid-template-rows: repeat(3, auto);
     row-gap: 1em;
-    max-width: 500px;
+    max-width: 400px;
     min-width: 350px;
     margin: 5em auto;
     place-items: center;
